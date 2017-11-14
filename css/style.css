@@ -1,0 +1,13 @@
+body {background: url(/images/bg.jpg) no-repeat #A68F6D; background-size: cover; background-position: center; background-attachment: fixed; font-family: sefif; font-size: 16px;}
+h1 {font-size: 26px;}
+a, a:hover, a:active {outline: none; color: white; text-decoration: none; border-bottom: 1px dashed white; transition: all 0.1s linear;}
+a:hover {border-bottom: 1px solid white; font-size: 18px;}
+a:active {border-bottom: 1px dotted white;}
+#box {width: 500px; height: 250px; text-align: center; position: fixed; top: calc(50% - 125px); left: calc(50% - 250px); border-radius: 10px; opacity: 0.6; padding: 10px; background: black; box-shadow: 0 0 20px white; color: white;}
+#links {margin-top: 70px;}
+#box ul {margin: 5px;}
+#box li {margin-bottom: 10px;}
+/* ОПТИМИЗАЦИЯ */
+@media all and (max-width: 2000px) {
+    body {background: url(/images/bg-mob.jpg) no-repeat #A68F6D; background-size: cover; background-position: center; background-attachment: fixed;}
+}
